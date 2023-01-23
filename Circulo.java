@@ -5,9 +5,13 @@ public class Circulo
 
 	public float radio;
 	
-	public Circulo(float id)
+	public Circulo(float radio)
 	{
-		radio = id;
+		this.radio = radio;
+	}
+	public Circulo()
+	{
+		this(173913);
 	}
 	public double getCircunference() 
 	{

@@ -5,9 +5,13 @@ public class Cuadrado
 
 	public float longitud;
 	
-	public Cuadrado(float id)
+	public Cuadrado(float longitud)
 	{
-		longitud = id;
+		this.longitud = longitud;
+	}
+	public Cuadrado()
+	{
+		this(173913);
 	}
 	public double getDiagonal()
 	{
